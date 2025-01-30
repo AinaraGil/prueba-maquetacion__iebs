@@ -8,7 +8,7 @@ section.info-master {
 div.info-master__text {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 80px 0;
+    padding: 80px 0 100px;
     display: flex;
     flex-direction: column;
     gap: 15px;
