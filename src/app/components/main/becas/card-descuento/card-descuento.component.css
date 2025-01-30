@@ -1,0 +1,32 @@
+div.card-descuento {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px, rgba(0, 0, 0, 0.2) 0px 2px 12px;
+}
+
+div.card-descuento__title h3,
+.card-descuento__info > *{
+    text-align: center;
+}
+
+div.card-descuento__title h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+div.card-descuento__info h4 {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.btn-container button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

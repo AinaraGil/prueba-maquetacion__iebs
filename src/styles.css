@@ -3,7 +3,7 @@
     --primary-color: #622580;
     --secondary-color: #fcb700;
     --tertiary-color: #CDCDCD;
-    --primary-text-color: #141414;
+    --tertiary-color: #141414;
     --secondary-text-color: #FFFFFF;
 }
 
@@ -18,6 +18,7 @@
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -65,7 +66,7 @@ button.primary-button:hover {
 a.secondary-button, 
 button.secondary-button {
     background:var(--secondary-color);
-    color: var(--primary-text-color);
+    color: var(--tertiary-color);
 }
 
 a.secondary-button:hover, 
@@ -80,13 +81,14 @@ a.tertiary-button,
 button.tertiary-button {
     border: 2px solid var(--tertiary-color);
     background: transparent;
-    color: var(--primary-text-color);
+    color: var(--tertiary-color);
 }
 
 a.tertiary-button:hover, 
 button.tertiary-button:hover {
-    background:#CDCDCD;
     transition: background 0.1s linear;
     transform: scale(1.02);
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 

@@ -1,0 +1,26 @@
+
+section.becas {
+    background-color: #160023;
+}
+
+div.becas__info {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 40px 100px;
+}
+
+div.becas__cards{
+    gap: 40px;
+}
+
+.becas__title h2 {
+    color: var(--secondary-color);
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.becas__title h2 span {
+    font-weight: 100;
+}
