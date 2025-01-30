@@ -1,0 +1,52 @@
+
+h1 {
+    color: var(--primary-color);
+    font-weight: 100;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+p span {
+    font-weight: 700;
+}
+
+
+h1 > span {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.seo-sem__badge {
+    position: absolute;
+    background: var(--secondary-color);
+    padding: 10px 25px;
+    right: 8%;
+    top: 0px;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px, rgba(0, 0, 0, 0.2) 0px 2px 12px;
+}
+
+.seo-sem__badge p {
+    color: var(--primary-text-color);
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.material-symbols-rounded {
+    font-size: 1.8rem;
+}
+
+.seo-sem__badge p span {
+   font-weight: 700;
+}
+
+.seo-sem-btn__container a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

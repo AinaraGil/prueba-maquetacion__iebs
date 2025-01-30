@@ -1,1 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #622580;
+    --secondary-color: #fcb700;
+    --tertiary-color: #CDCDCD;
+    --primary-text-color: #141414;
+    --secondary-text-color: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+
+.body {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+
+
+a.primary-button, button.primary-button,
+a.secondary-button, button.secondary-button,
+a.tertiary-button, button.tertiary-button  {
+    border-radius: 16px;
+    padding: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    transition: transform 0.2s ease, font-size 0.2s ease;
+    text-decoration: none;
+}
+
+/*Primary*/
+a.primary-button, 
+button.primary-button {
+    color: var(--secondary-text-color);
+    background: var(--primary-color);  
+} 
+
+a.primary-button:hover,
+button.primary-button:hover {
+    background:#5e17d1;
+    transition: background 0.1s linear;
+    transform: scale(1.02);
+}
+
+/*Secondary*/
+a.secondary-button, 
+button.secondary-button {
+    background:var(--secondary-color);
+    color: var(--primary-text-color);
+}
+
+a.secondary-button:hover, 
+button.secondary-button:hover {
+    background:#eaaa00;
+    transition: background 0.1s linear;
+    transform: scale(1.02);
+}
+
+/*Tertiary*/
+a.tertiary-button, 
+button.tertiary-button {
+    border: 2px solid var(--tertiary-color);
+    background: transparent;
+    color: var(--primary-text-color);
+}
+
+a.tertiary-button:hover, 
+button.tertiary-button:hover {
+    background:#CDCDCD;
+    transition: background 0.1s linear;
+    transform: scale(1.02);
+}
+
+
+.hero,
+.reconocimientos,
+.informacion,
+.becas,
+.opiniones,
+.info-master,
+.otros-programas {
+    padding-bottom: 50px !important;
+}
