@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 264 470">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #622580;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="264" height="470"/>
+    </clipPath>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g class="cls-3">
+      <g id="Pages">
+        <g id="_06-Course" data-name="06-Course">
+          <g id="CTA">
+            <path id="Path-7" class="cls-1" d="M33.42,556.32c60-20.3,102.2-87.3,134.2-130.6,32-43.3,79.9-77.5,85.1-123.1,5.1-45.6,8.1-180.4-147.1-228.6S-185.98-52.18-224.88,8.82c-39,61,95.2,454.3,109.1,484.8,13.8,30.5,89.2,83,149.2,62.7Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
