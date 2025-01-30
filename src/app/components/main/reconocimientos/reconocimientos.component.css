@@ -1,0 +1,13 @@
+section.reconocimientos{
+    background-color: antiquewhite;
+    padding: 30px 0;
+}
+
+
+img {
+    height: 100px;
+}
+
+img#fecyt, img#ucam{
+    height: 80px;
+}

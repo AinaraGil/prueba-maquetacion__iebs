@@ -90,13 +90,3 @@ button.tertiary-button:hover {
     transform: scale(1.02);
 }
 
-
-.hero,
-.reconocimientos,
-.informacion,
-.becas,
-.opiniones,
-.info-master,
-.otros-programas {
-    padding-bottom: 50px !important;
-}

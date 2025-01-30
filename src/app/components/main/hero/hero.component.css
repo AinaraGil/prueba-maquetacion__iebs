@@ -6,7 +6,7 @@ section.hero {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 24px;
+    padding: 24px 24px 50px;
 }
 
 div.hero__container {
