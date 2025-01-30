@@ -1,0 +1,49 @@
+
+.input-section__info {
+    text-align: center;
+}
+
+.input-section__info h2 {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.input-section__info span {
+    font-weight: 600;
+}
+
+/* FORUMULARIO */
+.form-contact__input button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-contact__input input {
+   padding: 10px;
+}
+
+.form-contact__input input:focus {
+    box-shadow: 0 0 0 .25rem #a56fbf40;
+}
+
+
+.form-contact__input .form-check-input {
+    cursor: pointer;
+}
+
+.form-contact__input .form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.input__item--checkbox {
+    display: flex;
+    gap: 10px;
+}
+
+.input__item--checkbox a {
+    color: var(--primary-color);
+}
