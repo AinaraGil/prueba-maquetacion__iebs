@@ -44,6 +44,21 @@ La pagina web a rediseñar es la siguiente: [IEBS - Máster en SEO y SEM](https:
 
 ---
 
+## 🖼️ Imagen del proyecto
+
+<details>
+  <summary>Desktop</summary>
+  ![Prueba-IEBS__Desktop](https://github.com/user-attachments/assets/b970be29-1fcc-403a-971b-7bf221aca368)
+
+</details>
+
+<details>
+  <summary>Mobile</summary>
+  ![Prueba-IEBS__Mobile](https://github.com/user-attachments/assets/5d049943-95d5-4cf4-b5f1-20b6ecb286bc)
+</details>
+
+---
+
 ## 🛠️ Detalles de Implementación
 
 ### Nuevo Diseño
