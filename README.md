@@ -13,7 +13,7 @@ La pagina web a rediseñar es la siguiente: [IEBS - Máster en SEO y SEM](https:
 
 ### Tecnologías Utilizadas
 
--   **HTML5**: Estructura semántica y accesible, cumpliendo estándares de etiquetas semánticas y atributos `aria-label`.
+-   **HTML5**: Estructura semántica y accesible, cumpliendo estándares de etiquetas semánticas.
 -   **Bootstrap**: Framework utilizado por la empresa para estilizar los componentes.
 -   **Metodología BEM**: Nomenclatura clara y consistente en los estilos.
 -   **Git**: Para el control de versiones y seguimiento del progreso.
