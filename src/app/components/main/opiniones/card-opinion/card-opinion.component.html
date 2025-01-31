@@ -1,1 +1,21 @@
-<p>card-opinion works!</p>
+<div class="wrapper opiniones-card__container">
+    <div class="">
+        <div class="card-photo">
+            <img [src]="photo" />
+        </div>
+
+        <div class="card-info">
+            <div class="card-info__description">
+                <span class="material-symbols-rounded inverted"> format_quote </span>
+                {{ text }}
+                <span class="material-symbols-rounded"> format_quote </span>
+            </div>
+        </div>
+        <div class="card-user">
+            <div class="user">
+                <p class="user-name">{{ name }}</p>
+                <p class="user-position">{{ position }}</p>
+            </div>
+        </div>
+    </div>
+</div>

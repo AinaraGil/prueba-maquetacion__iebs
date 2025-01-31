@@ -1,0 +1,69 @@
+div.opiniones-card__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+div.opiniones-card__container div.wrapper{
+    display: flex;
+
+    
+}
+
+div.opiniones-card__container .card-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 12px solid white;
+    padding: 4px;
+}
+
+
+div.card-info {
+    display: flex;
+    align-items: center;
+    background: var(--secondary-color);
+    padding: 20px 20px 20px 180px;
+    margin-left: 4px;
+    border-radius: 100px 20px 20px 100px;
+    height: 150px;
+}
+
+div.card-info .card-info__description{
+    display: inline-block;
+    font-weight: 600;
+}
+
+
+div.opiniones-card__container .card-photo {
+    position: absolute;
+}
+
+.inverted{
+    transform: scaleX(-1);
+}
+
+.card-user {
+    display: flex;
+}
+
+.card-user .user {
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.user p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.user p.user-name{
+    font-weight: 700;
+}
+
+.card-user a {
+    padding: 10px 20px;
+}
