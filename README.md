@@ -1,59 +1,58 @@
-# IebsPrueba
+# Prueba de Maquetación - IEBS
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+Este proyecto es una prueba técnica de rediseño basada en una web de IEBS. Su objetivo es evaluar la capacidad de transformar la web en un diseño mas actualizado utilizando código estructurado.
+La pagina web a rediseñar es la siguiente: [IEBS - Máster en SEO y SEM](https://microsite.iebschool.com/programas/master-sem-ppc-marketing-buscadores/#close)
 
-## Development server
+## 📋 Estructura y Contenido
 
-To start a local development server, run:
+### Elementos Implementados
 
-```bash
-ng serve
-```
+-   **Header**
+-   **Content**
+-   **Footer**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Tecnologías Utilizadas
 
-## Code scaffolding
+-   **HTML5**: Estructura semántica y accesible, cumpliendo estándares de etiquetas semánticas y atributos `aria-label`.
+-   **Bootstrap**: Framework utilizado por la empresa para estilizar los componentes.
+-   **Metodología BEM**: Nomenclatura clara y consistente en los estilos.
+-   **Git**: Para el control de versiones y seguimiento del progreso.
+-   **Angular:** Para la modularización del codigo.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🚀 Cómo Ejecutar el Proyecto
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. **Clona el repositorio**:
 
-```bash
-ng generate --help
-```
+    ```bash
+    git clone https://github.com/AinaraGil/prueba-maquetacion__iebs.git
 
-## Building
+    cd prueba-maquetacion__iebs
+    ```
 
-To build the project run:
+2. **Instala las dependencias** (necesitas tener Node.js instalado)::
 
-```bash
-ng build
-```
+    ```bash
+    npm install
+    ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+3. **Abre el proyecto en tu navegador con angular**:
+    ```bash
+    ng serve --open
+    ```
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🛠️ Detalles de Implementación
 
-```bash
-ng test
-```
+### Nuevo Diseño
 
-## Running end-to-end tests
+-   Se ha trabajado para rediseñar la web original utilizando estilos modernos y buenas practicas.
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 🧑‍💻 Autor
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desarrollado por Ainara Gil como parte de la prueba técnica para IEBS.  
+[LinkedIn](https://www.linkedin.com/in/ainaragil) | [Portafolio](https://ainaragilcm.myportfolio.com/work) | [Github](https://github.com/AinaraGil)
