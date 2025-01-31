@@ -62,7 +62,7 @@ div.btn-container button{
 @media (min-width: 768px) {
     div.otros-programas__img img {
         height: 80vh;
-        top: 0;
+        top: -12px;
         transition: 1s ease-in-out all;
         opacity: 0.2;
     }
