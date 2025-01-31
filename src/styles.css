@@ -86,9 +86,9 @@ button.tertiary-button {
 
 a.tertiary-button:hover, 
 button.tertiary-button:hover {
+    background: var(--tertiary-color);
     transition: background 0.1s linear;
     transform: scale(1.02);
-    border-color: var(--secondary-color);
     color: var(--secondary-color);
 }
 
